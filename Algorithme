@@ -1,0 +1,40 @@
+Algorithme fonction
+   # Résoudre l'équation du second degré ax² + bx + c = 0
+   Variables
+   a=entier
+   b=entier
+   c=entier
+
+ debut 
+      
+ # 1. Enregistrer les valeurs de a, b et c
+ecrire("Donner la valeur de a : ")
+lire(a)
+
+ecrire("Donner la valeur de b : ")
+lire(b)
+
+ecrire("Donner la valeur de c : ")
+lire(c)
+
+# 2. Calculer le Delta
+# Formule : Delta = b^2 - 4ac
+delta ← b^2 - 4*a*c
+ecrire("Valeur de delta : ", delta)
+
+# 3. Trouver la solution selon la valeur de delta
+si delta > 0 alors
+    x1 ← (-b - √delta) / (2*a)
+    x2 ← (-b + √delta) / (2*a)
+    ecrire("Il existe deux solutions :")
+    ecrire("x1 = ", x1)
+    ecrire("x2 = ", x2)
+
+sinon si delta = 0 alors
+    x ← -b / (2*a)
+    ecrire("Il existe une solution unique : ", x)
+
+sinon
+    ecrire("Il n'existe pas de solution dans ℝ")
+
+fin si
