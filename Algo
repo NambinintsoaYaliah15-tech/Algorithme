@@ -1,0 +1,14 @@
+Algorithme temperature
+ variable
+      temperature: entier
+     
+    Debut
+    ecrire("donner la temperature aujourd'huit")
+    lire("temperature")
+     si temperature>20° alors
+              ecrire("la temperature est élévée")
+     sinon si temperature<20° alors
+              ecrire("la temperature est basse")
+     sinon
+               ecrire("la temperature est moyenne")
+     finsi
