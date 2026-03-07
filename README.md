@@ -18,4 +18,4 @@ Algorithme de calcule
        Q=N/M
        S=Q*Z
        ecrire("resultat de S:",S)
-       fin
+       fineS
