@@ -1,0 +1,12 @@
+Algorithme d'utilisation de l'appkication''
+Variable
+âge:entier
+debut
+    ecrire("quel âge asc-tu")
+    lire(âge)
+                si âge<18 lors
+                 ecrire("tu ne peux pas ultiliser cette application")
+                 sinon  
+                 ecrire("tu peux continuer")
+                finsi
+fin
