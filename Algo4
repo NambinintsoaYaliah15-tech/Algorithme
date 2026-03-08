@@ -1,25 +1,27 @@
-Algorithme de calcule 
-#calculer S=(a+b)*(a-c)
-variables
-        a=entier
-        b=entier
-        c=entier
-        N:entier
-        M:entier
-  Debut
-  #1 enregistrer les valeur des a,b et c  
-      ecrire("donner une valeur de a":)
-      lire(a)
-      ecrire("donner une valeur de b":)
-      lire(b)
-      ecrire("donner une valeur de c":)
-      lire(c)
-  
-  #2 faire du calcule
-  
-  
-      N=a+b
-      M=a-c
-      S=N*M
-      ecrire("resultat de S:",S)
-      fin
+Algorithme de calcule
+       # calcule S=((a+b)*(c+d))/((a-c)*(d+a))
+ Variable
+ 
+        a,b,c,d,N,M,Z,Q,H,J,S: entiers
+        
+ Debut
+     #1 enregistrer les variables a,b,c,d
+         ecrire("donner le valeur de a:")
+         lire(a)
+         ecrire("donner le valeur de b:")
+         lire(b)
+         ecrire("donner le valeur de c:")
+         lire(c)
+         ecrire("donner le valeur de d:")
+         lire(d)
+         
+ #2 fair le calcul
+           N=a+b
+           M=c+d
+           Z=N*M
+           Q=a-c
+           H=d+a
+           J=Q*H
+           S=Z/J
+           ecrire("resultat de S:",S)
+           fin
