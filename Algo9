@@ -1,0 +1,16 @@
+Algorithme fonction
+  #Resoudre d'equation premier degré ax+b=0
+ Variables
+ a=entier
+ b=entiers
+ Debut
+ #1 enregistrer les valeurs a,b
+     ecrire("afficher la valeur de a:")
+     lire(a)
+     ecrire("afficher la valeur de b:")
+     lire(a)
+  #trouver le x
+  x=(a/b)
+  ecrire("il existe une solution x:",x)
+  ecrire("valeu de x:",S={x})
+  fin
