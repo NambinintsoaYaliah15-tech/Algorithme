@@ -1,0 +1,26 @@
+Algorithme Note_BACC
+
+Variable
+    note : réel
+
+Début
+    ecrire("Donner la note : ")
+    lire(note)
+
+    si note < 10 alors
+        ecrire("Mention ajournée")
+        
+    sinon si note >= 10 et note < 12 alors
+        ecrire("Mention passable")
+        
+    sinon si note >= 12 et note < 14 alors
+        ecrire("Mention assez bien")
+        
+    sinon si note >= 14 et note < 16 alors
+        ecrire("Mention bien")
+        inon
+        ecrire("Mention très bien")
+        
+    fin si
+
+Fin
