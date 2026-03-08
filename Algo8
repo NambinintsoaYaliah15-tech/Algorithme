@@ -1,0 +1,15 @@
+Algorithme calcule
+  #Calculer T=sqrt(a)/(a-b)
+  variable
+      a,b,N,T: entiers
+  Debut
+  #1 enregistrer les valeur a,b
+  ecrire("donner la valeur de a:")
+  lire(a)
+  ecrire("donner la valeur de b:")
+  lire(b)
+  #2 fair le calcule
+  N=a-b
+  T= math.sqrt(a)/N
+  ecrire("resultat T:",T)
+  fin
