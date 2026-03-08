@@ -1,0 +1,35 @@
+Algorithme Presentation
+
+Variables
+    nom : chaine
+    prenom : chaine
+    classe : chaine
+    date_naissance : chaine
+    adresse : chaine
+
+Début
+    ecrire("Quel est votre nom ?")
+    lire(nom)
+
+    ecrire("Quel est votre prénom ?")
+    lire(prenom)
+
+    ecrire("Quelle est votre classe ?")
+    lire(classe)
+
+    ecrire("Quelle est votre date de naissance ?")
+    lire(date_naissance)
+
+    ecrire("Où habites-tu ?")
+    lire(adresse)
+
+    ecrire("Vous êtes : ", nom, prenom, classe, date_naissance, adresse)
+
+Fin
+
+
+
+
+
+
+
