@@ -11,4 +11,4 @@ Algorithme temperature
               ecrire("la temperature est basse")
      sinon
                ecrire("la temperature est moyenne")
-     finsi
+     finsi Algorithme
